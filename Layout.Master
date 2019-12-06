@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.master.cs" Inherits="FinalProjectHTTP5101.Layout" %>
+
+<%@ Register Src="~/Navigation.ascx" TagName="Navigation" TagPrefix="asp"%>
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>My Wordpress</title>
+    <link rel="stylesheet" type="text/css" href="/Content/style.css" />
+</head>
+<body>
+    <header>
+<h1 id="header_h1"><a href="WelcomePage.aspx">myWordpress</a></h1>
+
+        
+ <asp:Navigation runat="server"></asp:Navigation>
+    </header>
+   
+    <div class="cwidth">
+        <form id="form1" runat="server">
+            <asp:ContentPlaceHolder ID="body" runat="server">
+            </asp:ContentPlaceHolder>
+        </form>
+    </div>
+    <footer>
+        <div class="cwidth">
+             2019 Code is referenced to  HTTP5101 School System by Christine Bittle. For Educational Purposes Only
+            
+        </div>
+    </footer>
+</body>
+</html>
