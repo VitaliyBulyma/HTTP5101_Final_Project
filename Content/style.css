@@ -227,12 +227,14 @@ Each column should be 17.24% wide with a gutter space of 3.44%
     text-align: center;
 }
 
-#custombody{
+#custombody {
     /*border:4px dashed blue;*/
-    width:40vw;
-    height:20vw;
-    margin-left:auto;
-    margin-right:auto;
+    width: 40vw;
+    height: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px lightblue;
+    border-radius:10px;
 }
 #image_placeholder {
     float: right;
