@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Welcome</title>
+    <link href="/Content/style.css" type="text/css" rel="stylesheet" runat="server" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -15,9 +16,9 @@
         <div id="welcome_message_container">
              <p id="welcome_message"> Where you can create your own webpages</p>
         </div>
-        <div id="welcome_button_container">
-        <asp:LinkButton runat="server" href="NewPage.aspx" >Click to Create your own page</asp:LinkButton>
-    </div>
+            <div id="welcome_button_container">
+            <asp:LinkButton CssClass="Button" runat="server" href="NewPage.aspx" >Click to Create your own page</asp:LinkButton>
+            </div>
         </div>
     </form>
 </body>

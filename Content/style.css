@@ -1,6 +1,9 @@
-﻿
-/*GENERAL CSS*/
+﻿@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+/*font-family: 'Dancing Script', cursive;*/
 
+/*CSS in part referenced to Christine Bittle */
+
+/*GENERAL CSS*/
 
 
 html {
@@ -18,6 +21,49 @@ html {
     margin: 0 auto;
 }
 
+/*Welcome Page*/
+
+#welcome_page_main_heading {
+    color: blue;
+    font-size: 3em;
+    font-family:'Dancing Script', cursive;
+    text-align: center;
+}
+
+#welcome_message {
+    color: blue;
+    font-size: 2em;
+    text-align: center;
+    margin-top:50px;
+    
+}
+.Button {
+    text-align: center;
+    width: 240px;
+    height: 50px;
+    background: #f9f9f9;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightblue;
+    padding: 10px;
+    margin-left: 42%;
+    margin-top: 5%;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+    .Button:active {
+        transform: translateY(3px);
+        box-shadow: 0px 0px white;
+    }
+    .Button:hover {
+        transform: scale(1.05);
+        
+    }
+
+#welcome_button_container{
+    padding-top: 100px;
+}
+/*Master Layout*/
 header {
     display: flex;
 }
@@ -54,11 +100,7 @@ footer {
 }
 
 /*BASIC HEADER STYLE*/
-/*header nav{padding-top:20px;}
-header nav ul{list-style-type:none;}
-header nav ul li{display:inline-block; margin-left:15px;}
-nav li a, nav li a:active, nav li a:hover, nav li a:visited{text-decoration:none; color:#ffffff;}
-*/
+
 /*Single view*/
 #body_page {
     margin-bottom: 50px;
