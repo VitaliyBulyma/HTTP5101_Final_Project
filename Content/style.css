@@ -211,3 +211,29 @@ Each column should be 17.24% wide with a gutter space of 3.44%
     width: 100px;
     margin-top: 50px;
 }
+
+
+/*Created Page */
+
+#custom_page_main_heading {
+    color: blue;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+#custombody{
+    /*border:4px dashed blue;*/
+    width:40vw;
+    height:20vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+#image_placeholder {
+    float: right;
+    border: 1px solid black;
+    padding: 20px;
+    height: 120px;
+    width: 200px;
+    box-shadow: 5px 5px 5px lightblue;
+}

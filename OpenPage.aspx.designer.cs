@@ -24,6 +24,15 @@ namespace FinalProjectHTTP5101
         protected global::System.Web.UI.HtmlControls.HtmlTitle customtitle;
 
         /// <summary>
+        /// custom_page_main_heading control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl custom_page_main_heading;
+
+        /// <summary>
         /// custombody control.
         /// </summary>
         /// <remarks>

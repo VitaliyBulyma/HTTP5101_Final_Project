@@ -35,6 +35,7 @@ namespace FinalProjectHTTP5101
 
                 
                 customtitle.Text += page_record.GetPtitle();
+                custom_page_main_heading.InnerHtml += page_record.GetPtitle();
                 custombody.InnerHtml += page_record.GetPbody();
 
             }
