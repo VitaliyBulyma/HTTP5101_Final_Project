@@ -8,11 +8,13 @@
      <link href="/Content/style.css" type="text/css" rel="stylesheet" runat="server" />
 </head>
 <body runat="server"  >
+    <header id="custom_header">Read my story about:</header>
        <h1 id="custom_page_main_heading" runat="server" ></h1>
   <div runat="server" id="custombody">
 
       <div id="image_placeholder"></div>
 
   </div>
+    <footer> 2019 Made by using myWordpress tool</footer>
 </body>
 </html>

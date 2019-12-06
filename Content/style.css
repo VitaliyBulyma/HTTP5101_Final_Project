@@ -215,6 +215,11 @@ Each column should be 17.24% wide with a gutter space of 3.44%
 
 /*Created Page */
 
+#custom_header {
+    background-color: #f9f9f9;
+    color: black;
+}
+
 #custom_page_main_heading {
     color: blue;
     font-size: 3em;
@@ -236,4 +241,7 @@ Each column should be 17.24% wide with a gutter space of 3.44%
     height: 120px;
     width: 200px;
     box-shadow: 5px 5px 5px lightblue;
+}
+footer{
+    background-color:#f9f9f9;
 }
