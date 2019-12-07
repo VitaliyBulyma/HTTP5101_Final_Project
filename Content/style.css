@@ -235,6 +235,7 @@ Each column should be 17.24% wide with a gutter space of 3.44%
     margin-right: auto;
     box-shadow: 5px 5px 5px lightblue;
     border-radius:10px;
+    padding-top:10px;
 }
 #image_placeholder {
     float: right;
@@ -243,6 +244,7 @@ Each column should be 17.24% wide with a gutter space of 3.44%
     height: 120px;
     width: 200px;
     box-shadow: 5px 5px 5px lightblue;
+    margin: 10px 20px;
 }
 footer{
     background-color:#f9f9f9;

@@ -9,7 +9,7 @@
     </div>
     <div class="formrow">
         <label>Enter Page Text</label>
-        <asp:textbox mode="multiline" runat="server" ID="page_body"></asp:textbox>
+        <asp:TextBox MODE="multiline" Columns="50" Rows="50" runat="server" ID="page_body"></asp:TextBox>
     </div>
     
 

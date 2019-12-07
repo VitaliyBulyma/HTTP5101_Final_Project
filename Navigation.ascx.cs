@@ -25,7 +25,7 @@ namespace FinalProjectHTTP5101
             {
                 string pageid = row["pageid"];
                 string pagetitle = row["pagetitle"];
-                navigation.InnerHtml += "<li> <a href=\"OpenPage.aspx?pageid=" + pageid + "\"> " + pagetitle + " </a></li>";
+                navigation.InnerHtml += "<li> <a target=\"_blank\" href=\"OpenPage.aspx?pageid=" + pageid + "\"> " + pagetitle + " </a></li>";
 
 
 

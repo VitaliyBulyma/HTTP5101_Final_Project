@@ -61,7 +61,7 @@ namespace FinalProjectHTTP5101
                 string custom_pagebody = row["pagebody"];
                 pages_result.InnerHtml += "<div class=\"col5\">" + custom_pagebody + "</div>";
 
-                pages_result.InnerHtml += "<div class=\"col5\"><a class=\"right\" href=\"OpenPage.aspx?pageid=" + pageid + "\">Open</a></div>";
+                pages_result.InnerHtml += "<div class=\"col5\"><a class=\"right\" target=\"_blank\" href=\"OpenPage.aspx?pageid=" + pageid + "\">Open</a></div>";
 
                 pages_result.InnerHtml += "<div class=\"col5\"><a href=\"ShowPage.aspx?pageid=" + pageid + "\">Edit/Delete</a></div>";
 
